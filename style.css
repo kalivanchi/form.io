@@ -1,59 +1,64 @@
-a {
-    background-color: red;
-    margin: 50px;
-    border: 3px solid blue;
-    padding: 65px;
-  }
-  
-  body {
+/* Общие стили */
+body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     margin: 0;
+    padding: 0;
   }
   
-  .container {
-    background-color: #fff;
+  /* Стили для header */
+  header {
+    background-color: #333;
+    color: #fff;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
   }
   
-  form {
-    width: 300px;
+  /* Стили для nav */
+  nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav li {
+    margin-right: 20px;
+  }
+  nav a {
+    color: #333;
+    text-decoration: none;
   }
   
-  h2 {
+  /* Стили для main */
+  main {
+    padding: 20px;
+  }
+  
+  /* Стили для section */
+  section {
     margin-bottom: 20px;
   }
   
-  label {
-    font-weight: bold;
+  /* Стили для article */
+  article {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
   }
   
-  input {
+  /* Стили для aside */
+  aside {
+    background-color: #e6e6e6;
+    padding: 20px;
+  }
+  
+  /* Стили для footer */
+  footer {
+    background-color: #333;
+    color: #fff;
     padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 100%;
-    box-sizing: border-box;
-  }
+    text-align: center;
   
-  button {
-    padding: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  form button:hover {
-    background-color: #0056b3;
-  }
+}
